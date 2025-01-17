@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:/Users/prati/WebstormProjects/Java-Scaper/src/test/resources/features", // Absolute path to your feature files
-        glue = {"steps"}, // Package containing step definitions
-        plugin = {"pretty", "html:target/cucumber-reports.html"} // Optional: Generate readable test reports
+        features = "src/test/resources/features", 
+        glue = {"steps"}, 
+        plugin = {"pretty", "html:target/cucumber-reports.html"} 
 )
 public class TestRunner {
 }
