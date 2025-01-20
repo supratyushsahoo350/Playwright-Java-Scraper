@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="runners.TestRunner" time="29.192" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="runners.TestRunner" time="27.558" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
@@ -61,6 +61,6 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scrape discounted T-shirts from Myntra" name="Extract discounted Van Heusen T-shirts" time="19.417"/>
-  <testcase classname="Scrape discounted T-shirts from Myntra" name="Handle no discount scenario for Van Heusen" time="9.775"/>
+  <testcase classname="Scrape discounted T-shirts from Myntra" name="Extract discounted Van Heusen T-shirts" time="17.781"/>
+  <testcase classname="Scrape discounted T-shirts from Myntra" name="Handle no discount scenario for Van Heusen" time="9.777"/>
 </testsuite>
